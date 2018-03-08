@@ -1,0 +1,9 @@
+---
+- name: Hello Ansible
+  hosts: localhost
+  tasks:
+    - name: copy file
+      copy:
+        src: /Users/huishuaishuai/hui/projects/other/playbook/src/com/hui/Main.java
+        dest: /Users/huishuaishuai/hui/projects/other/playbook/src/com/hui/ansible/main.java
+        mode: 0644
